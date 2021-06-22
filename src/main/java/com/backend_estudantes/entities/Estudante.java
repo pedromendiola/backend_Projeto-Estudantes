@@ -17,9 +17,36 @@ public class Estudante implements Serializable {
     private long id;
 
     private String name;
+    private long age;
+    private String course;
+    private long telephone;
 
     public long getId() {
         return id;
+    }
+
+    public long getAge() {
+        return age;
+    }
+
+    public void setAge(long age) {
+        this.age = age;
+    }
+
+    public String getCourse() {
+        return course;
+    }
+
+    public void setCourse(String course) {
+        this.course = course;
+    }
+
+    public long getTelephone() {
+        return telephone;
+    }
+
+    public void setTelephone(long telephone) {
+        this.telephone = telephone;
     }
 
     public void setId(long id) {
