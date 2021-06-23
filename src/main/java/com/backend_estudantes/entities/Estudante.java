@@ -25,6 +25,19 @@ public class Estudante implements Serializable {
         return id;
     }
 
+    
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public long getAge() {
         return age;
     }
@@ -47,18 +60,6 @@ public class Estudante implements Serializable {
 
     public void setTelephone(long telephone) {
         this.telephone = telephone;
-    }
-
-    public void setId(long id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     @Override
